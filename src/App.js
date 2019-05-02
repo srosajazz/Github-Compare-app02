@@ -1,11 +1,8 @@
 import React, { Fragment } from "react";
 import GlobalStyle from "./styles/global";
 
-const App = () => (
-    <Fragment>
-        <GlobalStyle />
-        <div className="App" />
-    </Fragment>
-);
+import Main from "./pages/Main";
+
+const App = () => <Main />;
 
 export default App;
