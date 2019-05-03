@@ -20,6 +20,9 @@ export const Form = styled.form`
         background: orangered;
         border: #444;
         border-radius: 3px;
+        font-size: 18px;
+        /* Error message input value */
+        border: ${props => (props.withError ? "2px solid #F00" : 0)};
     }
 
     button {

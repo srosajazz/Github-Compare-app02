@@ -22,11 +22,13 @@ export default class Main extends Component {
 
             repository.lastCommit = moment(repository.pushed_at).fromNow();
             this.setState({
+                repositoryError: false,
                 repositoryInput: "",
-                repositories: [...this.state.repositories, repository]
+                repositories: [...this.state.repositories, repository],
+                repositoryError: false
             });
         } catch (err) {
-            console.log(err);
+            this.setState({ repositoryError: true });
         }
     };
 
@@ -35,7 +37,10 @@ export default class Main extends Component {
             <Container>
                 <img src={logo} alt="Github Compare" />
 
-                <Form onSubmit={this.handleAddRepository}>
+                <Form
+                    withError={this.state.repositoryError}
+                    onSubmit={this.handleAddRepository}
+                >
                     <input
                         type="text"
                         placeholder="user/repository"
