@@ -2,38 +2,50 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 60px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
 `;
 
-export const Form = styled.form`
-    margin-top: 20px;
-    width: 100%;
-    max-width: 400px;
+export const Repository = styled.div`
+    width: 250px;
+    background: #eb2f64;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 0 20px;
     display: flex;
-
-    input {
-        flex: 1;
-        height: 55px;
-        padding: 0 20px;
-        background: orangered;
-        border: #444;
-        border-radius: 3px;
+    flex-direction: column;
+    header {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        strong {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        small {
+            font-size: 14px;
+            color: #666;
+        }
+        img {
+            width: 64px;
+        }
     }
-
-    button {
-        height: 55px;
-        padding: 0 20px;
-        margin-left: 10px;
-        background: #63f5b6;
-        border: 0;
-        font-size: 20px;
-        font-weight: bold;
-        border-radius: 3px;
-
-        &:hover {
-            background: #52d89f;
+    ul {
+        list-style: none;
+        li {
+            font-weight: bold;
+            padding: 12px 20px;
+            small {
+                font-weight: normal;
+                font-size: 12px;
+                color: #999;
+                font-style: italic;
+            }
+        }
+        li:nth-child(2n - 1) {
+            background: #f5f5f5;
         }
     }
 `;
