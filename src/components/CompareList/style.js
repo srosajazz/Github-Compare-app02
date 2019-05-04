@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const Repository = styled.div`
     width: 250px;
-    background: #eb2f64;
+    background: #fff;
     border-radius: 3px;
     overflow: hidden;
     margin: 0 20px;
@@ -37,6 +37,7 @@ export const Repository = styled.div`
         li {
             font-weight: bold;
             padding: 12px 20px;
+            align-content: center;
             small {
                 font-weight: normal;
                 font-size: 12px;

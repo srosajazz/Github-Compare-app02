@@ -1,10 +1,13 @@
 import styled from "styled-components";
+import "font-awesome/css/font-awesome.css";
 
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 60px;
+    background-color: #9b65e5;
+    min-height: 95vh;
 `;
 
 export const Form = styled.form`
@@ -17,12 +20,12 @@ export const Form = styled.form`
         flex: 1;
         height: 55px;
         padding: 0 20px;
-        background: orangered;
+        background: #fff;
         border: #444;
         border-radius: 3px;
         font-size: 18px;
         /* Error message input value */
-        border: ${props => (props.withError ? "2px solid #F00" : 0)};
+        border: ${props => (props.withError ? "3px solid #F00" : 0)};
     }
 
     button {
