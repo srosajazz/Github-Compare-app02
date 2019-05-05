@@ -6,8 +6,6 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     padding-top: 60px;
-    background-color: #9b65e5;
-    min-height: 95vh;
 `;
 
 export const Form = styled.form`

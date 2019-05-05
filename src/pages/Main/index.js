@@ -28,8 +28,7 @@ export default class Main extends Component {
                 loading: false,
                 repositoryError: false,
                 repositoryInput: "",
-                repositories: [...this.state.repositories, repository],
-                repositoryError: false
+                repositories: [...this.state.repositories, repository]
             });
         } catch (err) {
             this.setState({ repositoryError: true });
