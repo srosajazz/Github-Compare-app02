@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import "font-awesome/css/font-awesome.css";
 
 export const Container = styled.div`
     display: flex;
@@ -19,11 +18,10 @@ export const Form = styled.form`
         height: 55px;
         padding: 0 20px;
         background: #fff;
-        border: #444;
-        border-radius: 3px;
         font-size: 18px;
-        /* Error message input value */
-        border: ${props => (props.withError ? "3px solid #F00" : 0)};
+        color: #444;
+        border-radius: 3px;
+        border: ${props => (props.withError ? "2px solid #f00" : 0)};
     }
 
     button {
@@ -31,12 +29,12 @@ export const Form = styled.form`
         height: 55px;
         padding: 0 20px;
         margin-left: 10px;
-        background: #63f5b6;
+        background: #63f5b0;
+        color: #fff;
         border: 0;
         font-size: 20px;
         font-weight: bold;
         border-radius: 3px;
-        color: #fff;
 
         &:hover {
             background: #52d89f;
