@@ -16,7 +16,7 @@ The main learning  in this app was to use api rest from github, how they work in
   - Git access page
   <img src="https://s3.amazonaws.com/barberimages2/gitcompare-1.png" height = "400" width = "400" />
   
-   - Git access page
+   - Git user/repositories
   <img src="https://s3.amazonaws.com/barberimages2/gitcompare-2.png" height = "400" width = "400" />
   
  
