@@ -9,7 +9,7 @@ The main learning  in this app was to use api rest from github, how they work in
   
  ### HOW TO USE:
  
- -Just type user/repository: facebook/react , vuejs/vue, angular/angular 
+ -Just type: facebook/react , vuejs/vue, angular/angular in the user/repository field:
  
 
   ### SCREENSHOTS:
