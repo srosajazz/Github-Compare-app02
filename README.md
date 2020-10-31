@@ -3,7 +3,7 @@
 
 - Check out the App: https://sergio-gitcompare-project.netlify.com/
  
-This project was done as final project of an Online boot Camp, the main goal learning in this project was to use api rest from github, how they work in the right way, in addition Sending repositories with props.
+This project was create as final project of an Online bootCamp, the main goal learning in this project was to use api rest from github, how they work in the right way, in addition Sending repositories with props.
 
 
   
