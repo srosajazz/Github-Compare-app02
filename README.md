@@ -3,13 +3,13 @@
 
 - Check out the App: https://sergio-gitcompare-project.netlify.com/
  
-The main learning  in this app was to use api rest from github, how they work in the right way, in addition Sending repositories with props.
+This project was done as final project of an Online boot Camp, the main goal learning in this project was to use api rest from github, how they work in the right way, in addition Sending repositories with props.
 
 
   
  ### HOW TO USE:
  
- -Just type: facebook/react , vuejs/vue, angular/angular in the user/repository field:
+ -type: facebook/react , vuejs/vue, angular/angular in the user/repository field:
  
 
   ### SCREENSHOTS:
